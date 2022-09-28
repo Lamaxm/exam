@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<script src="https://kit.fontawesome.com/db65cbf1b3.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="API.css"/>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script type="text/javascript" src="APItest.js"></script>
+</head>
+<body>
+
+    <div class="group">
+        <input type="text" id="input" onkeyup="Function()">
+        <select id="currency1"></select>
+    </div>
+   
+    <div class="group">
+        <input type="text" id="output" onchange="OnChange()">
+        <select id="currency2"></select>
+    </div>
+
+    <p id="from">
+        <div id="numberfrom"> </div>
+        <div id="currencyfrom"></div> <div> equals </div>
+    </p>
+    <p id="to">
+        <div id="numberto" style="font-size: 230%; color: black;"> </div> <div id="currencyto" style="font-size: 230%; color: black;"></div>
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+div {
+    display: inline;
+    color: gray;
+}
+
+
+.group {
+    background-color: rgb(255, 255, 255);
+    width: 385px;
+    margin: 0 auto 20px;
+    display: grid;
+    grid-template-columns: 100px 80px;
+    border: 1px solid;
+    border-color: #bbb9b9;
+    height: 57px;
+    border-radius: 6px;
+}
+input , select {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 19px;
+    text-align: left;
+}
+
+input {
+    padding-left: 10px;
+    margin-left: 0%;
+    margin-right: -113%;
+    border-right: 1px solid;
+    border-radius: 0;
+    border-color: #bbb9b9;
+}
+select {
+    padding: 18px;
+    margin-right: -250%;
+    margin-left: 154%;
+    text-align: right;
+}
+
+.from {
+    text-align: center;
+}
+
+.from {
+    color: gray;
+}
